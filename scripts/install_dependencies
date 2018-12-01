@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt-get --assume-yes install apache2
+sleep 2m
 
 if [ -d /var/www/html/ ]; then
     rm -rf /var/www/html/
